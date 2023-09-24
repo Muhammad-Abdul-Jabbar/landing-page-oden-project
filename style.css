@@ -1,0 +1,183 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+
+.logo{
+  font-size: 30px;
+  font-family: Skranji;
+}
+
+
+
+header {
+    display: flex;
+    margin: 0%;
+  }
+
+  .left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    justify-content: center;
+    background-color: #1F2937;
+  }
+
+  .links{
+    margin-left: 30%;
+    gap: 20px;
+  }
+
+  ul{
+    display: flex;
+    gap: 8px;
+    list-style-type: none;
+    justify-content: center;
+    
+   }
+
+   a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+   }
+
+   .logo{
+    color: white;
+   }
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    background-color: #1F2937;
+    height: 78vh;
+    margin: 0%;
+}
+
+img{
+    border-radius: 3px;
+}
+
+.button{
+    color: aliceblue;
+    background-color: darkblue;
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    
+}
+
+.awsome{
+  font-family: Skranji;
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.card{
+    display: flex;
+    margin: 40px;
+    gap: 20px;
+}
+
+.item{
+    justify-content: center;
+   align-items: center;
+}
+
+
+@media (max-width: 800px) {
+  .card {
+    flex-direction: column;
+  }
+}
+@media (max-width: 800px) {
+  .hero {
+    flex-direction: column;
+  }
+  
+}
+
+
+.content{
+  background-color: #e5e7eb;
+  padding: 20px;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.text{
+ margin: 50px;
+ font-size: 50px;
+ font-style: light italic;
+ font-family: Bona Nova;
+}
+
+.bold{
+  font-size: 25px;
+ font-weight: 900;
+ justify-content: end;
+display: flex;
+margin-right: 250px;
+}
+
+.action{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3882F6;
+  margin: 20%;
+  border-radius: 5px;
+  margin-top: 10%;
+  padding: 20px;
+}
+
+
+.btn{
+  border: 2px solid whitesmoke;
+  background: #3882F6;
+  width: 100px;
+  height: auto;
+  font-size: 15px;
+  color:#FFF;;
+}
+
+.btn:hover{
+  background-color: #1F2937;
+  transition: 1s;
+}
+
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  background-color: #1F2937;
+  height: 100px;
+}
+
+.text{
+  justify-content: center;
+  text-align: center;
+}
+
+.character{
+  font-family: Roboto Condensed;
+}
+
+.god{
+  border: 5px solid lightblue;
+}
